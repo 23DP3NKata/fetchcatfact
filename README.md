@@ -1,0 +1,1 @@
+# Darbs uz atzīmi 20.02.2025
