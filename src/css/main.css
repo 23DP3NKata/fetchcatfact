@@ -3,56 +3,104 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #252525;
 }
 
 header {
-    background: #1e5f80;
-    color: white;
-    padding: 15px;
+    padding: 10px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
+    display: inline-block;
+    align-items: center;
+    font-weight: bold;
 }
 
 nav ul li a {
-    color: white;
+    color: #EDF2F4;
     text-decoration: none;
 }
 
 section {
     padding: 20px;
+    color: #EDF2F4;
 }
 
 footer {
-    background: #1e5f80;
-    color: white;
-    padding: 10px;
-    position: fixed;
+    color: #b4e7fc;
+    padding: 5px;
     width: 100%;
-    bottom: 0;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
 
-.logo img {
-    width: 100px;
-    border: 2px solid #1e5f80;
-    border-radius: 100px;
+footer a {
+    color: #EDF2F4;
+    text-decoration: none;
 }
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 100px;
+    border: solid 2px #d6dbdd;
+    border-radius: 100%;
+    background-color: #EDF2F4;
+}
+
 
 button {
     padding: 15px 25px;
     font-size: 24px;
     cursor: pointer;
     text-align: center;
-    color: #fff;
-    background-color: #c54c4c;
+    color: #EDF2F4;
+    background-color: #EF233C;
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 5px #c9c9c9;
+    border-radius: 10px;
+    box-shadow: 0 5px #dadfe0;
+    margin-bottom: 30px;
   }
+
+li {
+    list-style-type: none;
+    color: #cacecf;
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    background-image: url("/src/images/main-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    color: #EDF2F4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+hr {
+    border: 1px solid #EDF2F4;
+}
