@@ -1,8 +1,8 @@
 let images = [
-    "/src/images/car2.jpg",
-    "/src/images/car3.jpg",
-    "/src/images/car4.jpg",
-    "/src/images/car1.jpg"
+    "src/images/car2.jpg",
+    "src/images/car3.jpg",
+    "src/images/car4.jpg",
+    "src/images/car1.jpg"
 ];
 let currentIndex = 0;
 
